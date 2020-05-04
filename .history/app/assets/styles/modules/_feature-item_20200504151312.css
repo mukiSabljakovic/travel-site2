@@ -1,0 +1,28 @@
+.feature-item {
+   
+   position: relative;
+   padding-bottom: 0.75rem;
+
+   @mixin atSmall {
+    padding-left: 94px;
+   }
+   
+   &__icon {
+       display: block;
+       margin: 0 auto;
+
+      @mixin atSmall {
+        position: absolute;
+        left: 0;
+      }
+   }
+
+   &__title {
+       font-weight: 300;
+       margin-bottom: .8rem;
+
+       @mixin atSmall {
+        font-size: 1.875rem;
+       }
+   }
+}
