@@ -1,0 +1,9 @@
+
+
+.btn {
+    background-color: $mainblue;
+    color: #fff;
+    text-decoration: none;
+    padding: .75rem 1.2rem;
+    display: inline-block;
+}
