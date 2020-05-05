@@ -1,0 +1,5 @@
+.site-footer {
+    background-color: $mainblue;
+    color: white;
+    padding: 0.5rem 0;
+}
