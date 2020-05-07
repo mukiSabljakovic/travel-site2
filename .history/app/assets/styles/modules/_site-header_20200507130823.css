@@ -29,22 +29,17 @@
         position: absolute;
         top: 0;
         left: 50%;
-        transition: transform .33s ease-out;
         transform: translateX(-50%);
         background-color: $mainblue;
         padding: 13px 29px;
-        transform-origin: 0 0;
-        
 
         @mixin atMedium {
             left: auto;
             transform: translateX(0);
-            
+            padding: 25px 36px;
 
             .site-header--dark & {
-                padding: 25px 36px;
-                transform: scale(.55);
-                
+                transform: scale(.57);
             }
         }
     }
