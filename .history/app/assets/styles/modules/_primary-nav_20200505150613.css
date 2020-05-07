@@ -1,0 +1,8 @@
+.primary-nav {
+
+    background: red;
+
+    &--pull-right {
+        float: right;
+    }
+}

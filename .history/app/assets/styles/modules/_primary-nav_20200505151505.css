@@ -1,0 +1,26 @@
+.primary-nav {
+
+    
+   
+   
+
+    ul {
+        margin: 0;
+        padding: 0;
+        @mixin clearfix;
+    }
+
+    &--pull-right {
+        float: right;
+    }
+
+    li {
+        list-style: none;
+        float: left;
+    }
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
