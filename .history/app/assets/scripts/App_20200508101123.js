@@ -5,11 +5,11 @@ import StickyHeader from './modules/StickyHeader'
 
 
 
-new StickyHeader();
+let stickyHeader = new StickyHeader();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
 new RevealOnScroll(document.querySelectorAll(".testimonial"), 66);
 
-new MobileMenu();
+let mobileMenu = new MobileMenu();
 let modal;
 
 
